@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+body {
+    /*background: #f2f2f2;*/
+    background: aquamarine;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    background: aquamarine;
+    /*height: 100vh;*/
+    margin-top: 0.2rem;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 2rem;
+
+}
+
+.container  {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    height: 400px;
+    width: 600px;
+    background: #f2f2f2;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    margin-top: .8rem;
+    /*padding-bottom: 1rem;*/
+    margin-bottom: 1rem;
+}
+
+.content {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translatey(-50%);*/
+    text-align: justify;
+    color: black;
+    padding: 40px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+button{
+    width: 200px;
+    height: 3rem;
+    cursor: pointer;
+}
+.form-button{
+
+    color: white;
+    background: black;
+}
+
+.nav-container{
+    display: flex;
+    top: 0;
+    background: black;
+    color: white;
+    width: 100vw;
+    height: 5rem;
+    /*margin-top: -16px;*/
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar{
+    display: flex;
+    /*margin: 1rem 1rem .2rem 1rem;*/
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+/*    background color*/
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    /*padding-right: 1rem;*/
+}
+.nav-button{
+    background: coral;
+    margin-right: 1rem;
+}
+.nav-heading{
+    margin-right: 35rem;
+
+}
+.text{
+    margin-right: 1rem;
+}
+.heading{
+}
+
+
+.main--section--books{
+    padding-top: 1rem;
+    background: aquamarine;
+
+}
+
